@@ -4,14 +4,6 @@
 
 <% @heroes.each do |hero| %>
 <h2>Hero Name: <%= hero.name %>
-<p>Hero Power: <%= hero.power %></p>
-<p>Hero Power: <%= @heroes[0].power %>
-<br>Hero Biography: <%= @heroes[0].bio %></p>
-
-<h2>Hero Name: <%= @heroes[1].name %></h2>
-<p>Hero Power: <%= @heroes[1].power %>
-<br>Hero Biography: <%= @heroes[1].bio %></p>
-
-<h2>Hero Name: <%= @heroes[2].name %></h2>
-<p>Hero Power: <%= @heroes[2].power %>
-<br>Hero Biography: <%= @heroes[2].bio %></p>
+<p>Hero Power: <%= hero.power %>
+<br>Hero Biography: <%= hero.bio %></p>
+<% end %>
